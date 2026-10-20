@@ -1,0 +1,30 @@
+:root {
+  --brandRed: #dc2626;
+  --brandRedHover: #b91c1c;
+  --brandDark: #0e1118;
+  --brandCard: #151922;
+  --brandBorder: #272d3b;
+}
+
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: #0e1118; }
+::-webkit-scrollbar-thumb { background: #272d3b; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #dc2626; }
+
+.glass-panel {
+  background: rgba(21, 25, 34, 0.75);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.hero-overlay {
+  background: linear-gradient(135deg, rgba(14,17,24,0.95) 0%, rgba(14,17,24,0.75) 50%, rgba(14,17,24,0.92) 100%);
+}
+
+.brand-logo {
+  display: block;
+  width: 100%;
+  max-width: 265px;
+  height: auto;
+  object-fit: contain;
+}
